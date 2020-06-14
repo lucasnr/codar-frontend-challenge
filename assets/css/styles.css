@@ -35,6 +35,18 @@ img {
 	max-width: 100%;
 }
 
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+.main section {
+	margin-bottom: 4.5rem;
+	margin-top: 3.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 .container {
 	margin-left: auto;
 	margin-right: auto;
@@ -48,5 +60,6 @@ img {
 	border-radius: 0.5rem;
 	color: #fff !important;
 	cursor: pointer !important;
+	font-size: 1.25rem !important;
 	padding: 0.625rem 2rem !important;
 }

@@ -1,0 +1,32 @@
+.banner {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 0px -3.5rem;
+}
+
+.banner > * {
+	margin: 0px 3.5rem;
+}
+
+.banner .banner__image {
+	display: block;
+	max-width: 25rem;
+	width: 100%;
+}
+
+.banner .banner__subtitle {
+	font-size: 1.375rem;
+	font-weight: 700;
+}
+
+.banner .banner__title {
+	color: #d6000d;
+	font-size: 3rem;
+	font-weight: 700;
+	margin-bottom: 1.875rem;
+}
+
+.banner .button {
+	display: inline-block;
+}
