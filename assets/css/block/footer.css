@@ -1,0 +1,42 @@
+.footer {
+	background-color: #000;
+	color: #fff;
+}
+
+.footer .footer__row {
+	align-items: flex-start;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px -0.75rem;
+	padding: 4rem 1rem;
+}
+
+.footer .footer__row section {
+	padding: 0px 0.75rem;
+}
+
+.footer .footer__title {
+	font-size: 2.25rem;
+	font-style: italic;
+}
+
+.footer .footer__subtitle {
+	font-size: 1.375rem;
+	font-weight: 500;
+	margin-top: 1rem;
+}
+
+.footer .footer__description {
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 0.75rem;
+}
+
+.footer .footer__social-media {
+	color: #d6000d;
+	display: flex;
+	font-size: 1.875em;
+	justify-content: space-evenly;
+	margin-top: 0.75rem;
+}
