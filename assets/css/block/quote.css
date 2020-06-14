@@ -1,13 +1,3 @@
-#quotes {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-}
-
-#quotes .quote {
-	width: calc(50% - 0.75rem);
-}
-
 .quote {
 	align-items: stretch;
 	background-color: #ddd;
@@ -46,4 +36,16 @@
 .quote .quote__author-origin {
 	font-size: 0.875rem;
 	font-weight: 700;
+}
+
+@media (min-width: 768px) {
+	#quotes {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	#quotes .quote {
+		width: calc(50% - 0.75rem);
+	}
 }

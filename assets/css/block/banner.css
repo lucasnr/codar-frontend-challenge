@@ -1,27 +1,53 @@
 .banner {
 	align-items: center;
 	display: flex;
+	flex-direction: column;
 }
 
 .banner .banner__image {
 	display: block;
+	margin-left: auto;
 	margin-right: auto;
-	max-width: 24rem;
+	max-width: 15rem;
 	width: 100%;
 }
 
+.banner .banner__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 1rem;
+	text-align: center;
+}
+
 .banner .banner__subtitle {
-	font-size: 1.375rem;
+	font-size: 1.25rem;
 	font-weight: 700;
 }
 
 .banner .banner__title {
 	color: #d6000d;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 700;
 	margin-bottom: 1.875rem;
 }
 
 .banner .button {
 	display: inline-block;
+}
+
+@media (min-width: 576px) {
+	.banner {
+		flex-direction: row;
+	}
+
+	.banner .banner__image {
+		margin-left: 0px;
+	}
+}
+
+@media (min-width: 768px) {
+	.banner .banner__image {
+		max-width: 24rem;
+	}
 }
