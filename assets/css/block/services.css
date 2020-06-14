@@ -1,0 +1,43 @@
+.services {
+	padding: 3.5rem 0px;
+}
+
+.services .services__row {
+	align-items: center;
+	display: flex;
+}
+
+.services .services__image {
+	display: block;
+	margin-left: auto;
+	max-width: 24rem;
+	width: 100%;
+}
+
+.services .services__list li {
+	align-items: center;
+	display: flex;
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+
+.services .services__list li i {
+	color: #d6000d;
+	margin-right: 2rem;
+	font-size: 1.375em;
+}
+
+.services .services__title {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 0.75rem;
+}
+
+.services .services__form input {
+	background-color: #ddd;
+	border: none;
+	border-radius: 0.5rem;
+	margin-right: 0.5rem;
+	padding: 0.875rem 1.5rem;
+}

@@ -9,11 +9,17 @@
 			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			async
+			src="https://kit.fontawesome.com/dd5260fcce.js"
+			crossorigin="anonymous"
+		></script>
 
 		<link rel="stylesheet" href="./assets/css/normalize.css" />
 		<link rel="stylesheet" href="./assets/css/styles.css" />
 		<link rel="stylesheet" href="./assets/css/block/header.css" />
 		<link rel="stylesheet" href="./assets/css/block/banner.css" />
+		<link rel="stylesheet" href="./assets/css/block/services.css" />
 	</head>
 
 	<body>
@@ -31,7 +37,7 @@
 			</div>
 		</header>
 
-		<main class="main">
+		<main class="main container">
 			<section class="banner">
 				<img
 					src="./assets/img/video_call.png"
@@ -47,19 +53,35 @@
 			</section>
 
 			<section class="services">
-				<img
-					src="./assets/img/coding_.png"
-					alt="Ilustração de um desenvolvedor"
-					class="services__image"
-				/>
-				<ul class="services__list">
-					<li><i class="fa"></i><span>Domínio personalizado</span></li>
-					<li><i class="fa"></i><span>Hospedagem</span></li>
-					<li><i class="fa"></i><span>Site responsivo</span></li>
-					<li><i class="fa"></i><span>Redes sociais</span></li>
-					<li><i class="fa"></i><span>Chat online</span></li>
-					<li><i class="fa"></i><span>Blog integrado</span></li>
-				</ul>
+				<div class="services__row">
+					<ul class="services__list">
+						<li>
+							<i class="fas fa-check-circle"></i
+							><span>Domínio personalizado</span>
+						</li>
+
+						<li><i class="fas fa-check-circle"></i><span>Hospedagem</span></li>
+
+						<li>
+							<i class="fas fa-check-circle"></i><span>Site responsivo</span>
+						</li>
+
+						<li>
+							<i class="fas fa-check-circle"></i><span>Redes sociais</span>
+						</li>
+
+						<li><i class="fas fa-check-circle"></i><span>Chat online</span></li>
+
+						<li>
+							<i class="fas fa-check-circle"></i><span>Blog integrado</span>
+						</li>
+					</ul>
+					<img
+						src="./assets/img/coding_.png"
+						alt="Ilustração de um desenvolvedor"
+						class="services__image"
+					/>
+				</div>
 
 				<form class="services__form">
 					<h3 class="services__title">Nossa equipe está à disposição!</h3>

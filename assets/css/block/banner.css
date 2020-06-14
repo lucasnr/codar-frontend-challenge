@@ -1,17 +1,12 @@
 .banner {
 	align-items: center;
 	display: flex;
-	justify-content: center;
-	margin: 0px -3.5rem;
-}
-
-.banner > * {
-	margin: 0px 3.5rem;
 }
 
 .banner .banner__image {
 	display: block;
-	max-width: 25rem;
+	margin-right: auto;
+	max-width: 24rem;
 	width: 100%;
 }
 
