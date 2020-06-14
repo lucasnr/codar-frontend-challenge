@@ -1,0 +1,49 @@
+#quotes {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+#quotes .quote {
+	width: calc(50% - 0.75rem);
+}
+
+.quote {
+	align-items: stretch;
+	background-color: #ddd;
+	border-radius: 0.5rem;
+	display: flex;
+	margin-bottom: 1.5rem;
+	padding: 1.5rem;
+}
+
+.quote .quote__image {
+	background-color: #d6000d;
+	border-radius: 50%;
+	display: block;
+	height: 4rem;
+	min-width: 4rem;
+	width: 4rem;
+}
+
+.quote .quote__content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1rem;
+	width: auto;
+}
+
+.quote .quote__text {
+	margin-bottom: 0.5rem;
+}
+
+.quote .quote__author-name {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-top: auto;
+}
+
+.quote .quote__author-origin {
+	font-size: 0.875rem;
+	font-weight: 700;
+}
